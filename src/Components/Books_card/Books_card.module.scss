@@ -1,0 +1,47 @@
+.root{
+    width: 170px;
+    background-color: #31313b;
+    padding: 1rem;
+    margin: 1rem 10px;
+    border-radius: 6px;
+    .books_img{
+        width: 60%;
+        margin: 0 auto;
+
+        img{
+            width: 100%;
+        }
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        // justify-content: space-between;
+        .text{
+            width: 90%;
+        }
+        .like{
+            width: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:active{
+                color: crimson;
+            }
+        }
+    }
+    .price{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+
+        a{
+            background: #494958;
+            padding: 10px 2rem;
+            border-radius: 6px;
+            font-size: 13px;
+            &:active{
+                background-color: rgb(10, 165, 10);
+            }
+        }
+    }
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.root{
+    margin-top: 1rem;
+    width: 100%;
+    
+    .mockup{
+        margin: 0 auto;
+        width: 95%;
+        border-radius: 15px;
+        height: 150px;
+        background-image: url('../../Img/illu_2x_png_by_Matus.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 40%;
+        transition: 200ms;
+        &:active{
+            transform: scale(95%);
+        }
+    }
+    .wellcome_block{
+        box-sizing: border-box;
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 2rem;
+        border-radius: 15px;
+        background-color: #262e3e;
+        transition: 200ms;
+        padding: 0.2rem 1rem 1rem 1rem;
+
+
+        .logo_icon{
+                
+            color: #b0e3e1;
+            transform: translateY(3px);
+            font-size: 55px;
+        }
+
+        &:active{
+            transform: scale(95%);
+        }
+        h1{
+            display: flex;
+            font-size: 35px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            span{
+                font-size: 25px;
+                font-family: 'Tourney', cursive;
+            }
+            a{
+                margin-top: 1rem;
+                color: #fff;
+                border-radius: 6px;
+                background-color: #394152;
+                font-size: 25px;
+                padding: 1rem 1rem;
+                text-decoration: none;
+            }
+        }
+    }
+}

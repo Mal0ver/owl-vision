@@ -1,0 +1,29 @@
+.root{
+    width: 90%;
+    height: 90vh;
+    background-color: #1f1f26;
+    border-radius: 30px;
+    padding: 0px 10px 10px 10px;
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    
+    .sidebar{
+        width: 19%;
+        height: 90%;
+        border-right: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
+    .content{
+        margin-top: 1rem;
+        height: 95%;
+        width: 81%;
+        overflow-y: scroll;
+        
+    }
+    .content::-webkit-scrollbar{
+        width: 0px;
+     
+    }
+
+}
